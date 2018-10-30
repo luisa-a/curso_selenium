@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mi primera suite" duration-ms="9539" started-at="2018-10-27T14:54:17Z" finished-at="2018-10-27T14:54:26Z">
+    <groups>
+    </groups>
+    <test name="My primer test" duration-ms="9539" started-at="2018-10-27T14:54:17Z" finished-at="2018-10-27T14:54:26Z">
+      <class name="tests.MyTest">
+        <test-method status="PASS" signature="abrirnavegador(java.lang.String)[pri:0, instance:tests.MyTest@12843fce]" name="abrirnavegador" is-config="true" duration-ms="4208" started-at="2018-10-27T14:54:17Z" finished-at="2018-10-27T14:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirnavegador -->
+        <test-method status="PASS" signature="ingresarSahiThrow()[pri:0, instance:tests.MyTest@12843fce]" name="ingresarSahiThrow" duration-ms="4388" started-at="2018-10-27T14:54:21Z" finished-at="2018-10-27T14:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresarSahiThrow -->
+        <test-method status="PASS" signature="cerrarNavegador()[pri:0, instance:tests.MyTest@12843fce]" name="cerrarNavegador" is-config="true" duration-ms="913" started-at="2018-10-27T14:54:25Z" finished-at="2018-10-27T14:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- tests.MyTest -->
+    </test> <!-- My primer test -->
+  </suite> <!-- Mi primera suite -->
+</testng-results>
